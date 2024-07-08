@@ -1,0 +1,25 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -pe mthread 25
+#$ -q sThC.q
+#$ -l mres=75G,h_data=3G,h_vmem=3G
+#$ -cwd
+#$ -j y
+#$ -N download_iz_cc0
+#$ -o download_iz_cc0.log
+#$ -m bea
+#
+# ----------------Modules------------------------- #
+#
+module load ~/modulefiles/miniconda
+source activate flickr_download
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+echo + NSLOTS = $NSLOTS
+#
+python download_images_iz.py -t iz_cc0_images.tsv -p $NSLOTS -d iz_dl_dims.tsv
+#
+echo = `date` job $JOB_NAME done

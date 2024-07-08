@@ -1,0 +1,24 @@
+# /bin/sh
+# ----------------Parameters---------------------- #
+#$ -S /bin/sh
+#$ -q sTgpu.q
+#$ -l gpu
+#$ -cwd
+#$ -j y
+#$ -N clip_embed_minsci
+#$ -o clip_embed_minsci.log
+#$ -m bea
+#
+# ----------------Modules------------------------- #
+#
+module load ~/modulefiles/miniconda
+source activate transformers
+#
+# ----------------Your Commands------------------- #
+#
+echo + `date` job $JOB_NAME started in $QUEUE with jobID=$JOB_ID on $HOSTNAME
+echo + NSLOTS = $NSLOTS
+#
+python clip_embed_minsci.py -d gpu
+#
+echo = `date` job $JOB_NAME done

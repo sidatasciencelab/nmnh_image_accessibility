@@ -1,0 +1,91 @@
++ Mon May 20 00:05:54 EDT 2024 job clip_embed_iz started in sTgpu.q with jobID=344810 on compute-50-01
++ NSLOTS = 1
+/home/triznam/mambaforge/envs/transformers/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model loaded in 4.478034496307373
+33822
+Images loaded in 0.23497509956359863
+0 1000
+Traceback (most recent call last):
+  File "/scratch/public/genomics/triznam/image_accessibility_nmnh/clip_embed_iz.py", line 86, in <module>
+    embed_and_classify_file_batch(file_subset, file_out)
+  File "/scratch/public/genomics/triznam/image_accessibility_nmnh/clip_embed_iz.py", line 31, in embed_and_classify_file_batch
+    with open(f'iz_embeddings/{output_file}.npy','wb') as np_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'iz_embeddings/iz_embeddings/embeddings_0_1000.npy'
+= Mon May 20 00:06:11 EDT 2024 job clip_embed_iz done
++ Mon May 20 00:07:18 EDT 2024 job clip_embed_iz started in sTgpu.q with jobID=344811 on compute-50-01
++ NSLOTS = 1
+/home/triznam/mambaforge/envs/transformers/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model loaded in 4.439213275909424
+33822
+Images loaded in 0.20103955268859863
+0 1000
+1000 embeddings created in 5.0256073320051655 s
+1000 2000
+1000 embeddings created in 8.812996549007948 s
+2000 3000
+1000 embeddings created in 8.421627219999209 s
+3000 4000
+1000 embeddings created in 7.708665321988519 s
+4000 5000
+1000 embeddings created in 7.790579563006759 s
+5000 6000
+1000 embeddings created in 6.902855290041771 s
+6000 7000
+1000 embeddings created in 6.839333184994757 s
+7000 8000
+1000 embeddings created in 6.692282741016243 s
+8000 9000
+1000 embeddings created in 6.709714144002646 s
+9000 10000
+1000 embeddings created in 6.912062899034936 s
+10000 11000
+1000 embeddings created in 6.61564226396149 s
+11000 12000
+1000 embeddings created in 6.119473339000251 s
+12000 13000
+1000 embeddings created in 6.237937442027032 s
+13000 14000
+1000 embeddings created in 5.895463204011321 s
+14000 15000
+1000 embeddings created in 5.993003674957436 s
+15000 16000
+1000 embeddings created in 6.021126455045305 s
+16000 17000
+1000 embeddings created in 5.586222838028334 s
+17000 18000
+1000 embeddings created in 5.747010687016882 s
+18000 19000
+1000 embeddings created in 5.648634459008463 s
+19000 20000
+1000 embeddings created in 5.148044295026921 s
+20000 21000
+1000 embeddings created in 5.364929175004363 s
+21000 22000
+1000 embeddings created in 5.357424281013664 s
+22000 23000
+1000 embeddings created in 5.080802066018805 s
+23000 24000
+1000 embeddings created in 5.370119251019787 s
+24000 25000
+1000 embeddings created in 5.218046388006769 s
+25000 26000
+1000 embeddings created in 5.350503506953828 s
+26000 27000
+1000 embeddings created in 5.160292332991958 s
+27000 28000
+1000 embeddings created in 5.1446322640404105 s
+28000 29000
+1000 embeddings created in 5.372136246995069 s
+29000 30000
+1000 embeddings created in 5.009477477986366 s
+30000 31000
+1000 embeddings created in 5.356689012027346 s
+31000 32000
+1000 embeddings created in 5.459779531985987 s
+32000 33000
+1000 embeddings created in 5.403164594026748 s
+33000 33822
+822 embeddings created in 4.646598603983875 s
+= Mon May 20 00:10:50 EDT 2024 job clip_embed_iz done

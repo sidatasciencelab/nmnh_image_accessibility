@@ -1,0 +1,12 @@
++ Mon Feb 26 23:14:36 EST 2024 job download_iz_cc0 started in sThC.q with jobID=22914829 on compute-65-17
++ NSLOTS = 25
+Downloaded 100 images in 0.9086192324757576 s
+= Mon Feb 26 23:14:43 EST 2024 job download_iz_cc0 done
++ Mon Feb 26 23:15:35 EST 2024 job download_iz_cc0 started in sThC.q with jobID=22914830 on compute-65-15
++ NSLOTS = 25
+Downloaded 1000 images in 22.575914844870567 s
+= Mon Feb 26 23:15:59 EST 2024 job download_iz_cc0 done
++ Mon Feb 26 23:16:50 EST 2024 job download_iz_cc0 started in sThC.q with jobID=22914831 on compute-65-18
++ NSLOTS = 25
+Downloaded 33837 images in 439.8671358898282 s
+= Mon Feb 26 23:24:12 EST 2024 job download_iz_cc0 done

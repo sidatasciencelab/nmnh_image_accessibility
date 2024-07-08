@@ -1,0 +1,64 @@
++ Mon May 20 00:19:37 EDT 2024 job clip_embed_minsci started in sTgpu.q with jobID=344812 on compute-50-01
++ NSLOTS = 1
+/home/triznam/mambaforge/envs/transformers/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Model loaded in 4.435515403747559
+27993
+Images loaded in 0.17073297500610352
+0 1000
+1000 embeddings created in 7.453656754980329 s
+1000 2000
+1000 embeddings created in 5.245859830989502 s
+2000 3000
+1000 embeddings created in 5.148926289984956 s
+3000 4000
+1000 embeddings created in 5.428218243992887 s
+4000 5000
+1000 embeddings created in 4.8965813019894995 s
+5000 6000
+1000 embeddings created in 4.97658010100713 s
+6000 7000
+1000 embeddings created in 4.9762438220204785 s
+7000 8000
+1000 embeddings created in 4.833175809006207 s
+8000 9000
+1000 embeddings created in 5.059687095985282 s
+9000 10000
+1000 embeddings created in 5.0361479700077325 s
+10000 11000
+1000 embeddings created in 4.8711201139958575 s
+11000 12000
+1000 embeddings created in 4.514482694037724 s
+12000 13000
+1000 embeddings created in 4.852907127991784 s
+13000 14000
+1000 embeddings created in 4.956532965006772 s
+14000 15000
+1000 embeddings created in 4.768825144972652 s
+15000 16000
+1000 embeddings created in 5.0142957720090635 s
+16000 17000
+1000 embeddings created in 4.464353668037802 s
+17000 18000
+1000 embeddings created in 4.717468546004966 s
+18000 19000
+1000 embeddings created in 4.606399997021072 s
+19000 20000
+1000 embeddings created in 4.670513694989495 s
+20000 21000
+1000 embeddings created in 4.734476723999251 s
+21000 22000
+1000 embeddings created in 4.372576531022787 s
+22000 23000
+1000 embeddings created in 4.547756733954884 s
+23000 24000
+1000 embeddings created in 4.381452501984313 s
+24000 25000
+1000 embeddings created in 4.578931919997558 s
+25000 26000
+1000 embeddings created in 4.560900258016773 s
+26000 27000
+1000 embeddings created in 4.5226585430209525 s
+27000 27993
+993 embeddings created in 4.875372794980649 s
+= Mon May 20 00:22:03 EDT 2024 job clip_embed_minsci done
